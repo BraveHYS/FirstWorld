@@ -45,16 +45,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\_Scripts\AnimationCtrl.cs" />
-     <Compile Include="Assets\_Scripts\Exercise\Function.cs" />
-     <Compile Include="Assets\_Scripts\Exercise\StudentManager.cs" />
-     <Compile Include="Assets\_Scripts\Exercise\TransCtrl.cs" />
-     <Compile Include="Assets\_Scripts\InputCtrl.cs" />
+     <Compile Include="Assets\_Scripts\BattleMgr.cs" />
+     <Compile Include="Assets\_Scripts\Note.cs" />
+     <Compile Include="Assets\_Scripts\NoteMgr.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files (x86)/Unity5.3/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>D:/Program Files (x86)/Unity5.3/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="MyLog">
+ <HintPath>D:/UnityProject/FirstWorld/Assets/Lib/MyLog.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
